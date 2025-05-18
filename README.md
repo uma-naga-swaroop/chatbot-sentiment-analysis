@@ -24,3 +24,14 @@ python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 streamlit run app.py  # or python app.py if using Flask
+
+
+
+chatbot-sentiment-analysis/
+│
+├── app.py              # Main application
+├── model/              # Pre-trained model or training code
+├── templates/          # HTML files (Flask)
+├── static/             # CSS/JS files
+├── requirements.txt    # Python dependencies
+└── README.md
